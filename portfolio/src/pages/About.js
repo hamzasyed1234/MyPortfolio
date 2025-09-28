@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import profileImage from '../assets/profile.jpg'; // Import your image
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
       <div className="about-content">
         <div className="profile-section">
           <div className="profile-image">
-            <div className="image-placeholder">Your Photo</div>
+            <img src={profileImage} alt="Hamza Syed" className="profile-photo" />
           </div>
           
           <div className="profile-info">
@@ -26,39 +27,7 @@ function About() {
           </div>
         </div>
 
-        <div className="details-grid">
-          <div className="detail-card">
-            <h3>🎯 My Skills</h3>
-            <ul>
-              <li>React.js</li>
-              <li>JavaScript/TypeScript</li>
-              <li>HTML/CSS</li>
-              <li>Node.js</li>
-              <li>UI/UX Design</li>
-            </ul>
-          </div>
-
-          <div className="detail-card">
-            <h3>📚 Education</h3>
-            <ul>
-              <li>Highschool - Dunbarton HS</li>
-            </ul>
-          </div>
-
-          <div className="detail-card">
-            <h3>💼 Experience</h3>
-            <ul>
-              <li>Ministry of Transportation Summer Employment (2022-23)</li>
-            </ul>
-          </div>
-
-        </div>
-
-        <div className="contact-cta">
-          <h3>Let's Connect!</h3>
-          <p>Feel free to reach out for collaborations or just to say hello!</p>
-          <button className="contact-btn">Get In Touch</button>
-        </div>
+        {/* Rest of your code remains the same */}
       </div>
     </div>
   );
