@@ -6,13 +6,12 @@ function Education() {
     {
       degree: "Software Engineering Technology",
       school: "Centennial College",
-      period: "2023 - Present (Expected Graduation: 2026)",
+      period: "2024 - Present ",
       status: "In Progress",
       description: "Advanced diploma program focusing on software development, system design, and programming methodologies. Gaining hands-on experience with modern technologies and software engineering practices.",
       achievements: [
-        "Dean's List (First Semester)",
         "Active in College Tech Clubs",
-        "Participating in Coding Competitions"
+        
       ],
       courses: ["Object-Oriented Programming", "Web Development", "Database Design", "Data Structures", "Software Engineering Principles"]
     },

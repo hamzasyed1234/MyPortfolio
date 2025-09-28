@@ -5,6 +5,7 @@ import About from './pages/About.js';
 import Home from './pages/Home.js';
 import Education from './pages/Education.js';
 import Services from './pages/Services.js';
+import Projects from './pages/Projects.js';  // Add this import
 import Contact from './pages/Contact.js';
 import './App.css';
 
@@ -20,8 +21,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/education" element={<Education />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />  {/* Use the actual component */}
             <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={<div>Projects Page Coming Soon</div>} />
           </Routes>
         </main>
       </div>
